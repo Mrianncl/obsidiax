@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "label": "phishing",
+    "text": "URGENT: Your bank account has been suspended. Verify immediately at http://secure-bank-login.com"
+  },
+  {
+    "id": 2,
+    "label": "phishing",
+    "text": "We noticed unusual activity on your email account. Confirm your identity within 24 hours."
+  },
+  {
+    "id": 3,
+    "label": "legit",
+    "text": "Hi, your university timetable has been updated for next week."
+  },
+  {
+    "id": 4,
+    "label": "legit",
+    "text": "Your Amazon order has been shipped and will arrive tomorrow."
+  },
+  {
+    "id": 5,
+    "label": "ambiguous",
+    "text": "Please review the attached document and get back to us."
+  }
+]
